@@ -1,0 +1,114 @@
+body {
+  background-color: black;
+}
+
+.container {
+  width: 500px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+h1 {
+  color: white;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+
+h4 {
+  color: black;
+  font-size: 30px;
+  text-align: center;
+}
+
+span {
+  font-weight: bold;
+}
+
+.char-container i {
+  font-size: 30px;
+  float: right;
+}
+
+.menu {
+  color: white;
+}
+
+.menu a {
+  color: lightgrey;
+  text-decoration: none;
+}
+
+.menu a:hover {
+  color: green;
+}
+
+a.active {
+  color: rgb(9, 142, 182);
+  text-transform: uppercase;
+}
+
+img {
+  padding-left: 20%;
+}
+
+p {
+  padding: 8px;
+  color: black;
+}
+
+.character {
+  font-size: 20px;
+  margin: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.character i {
+  font-size: 30px;
+  padding: 10px;
+}
+
+.character-container {
+  background-color: white;
+  color: black;
+  padding: 8px;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+input {
+  font-size: 18px;
+  padding: 8px;
+}
+
+
+.char-container {
+  background-color: white;
+  padding: 10px;
+  margin-top: 20px;
+}
+
+button {
+  font-size: 20px;
+}
+
+.character img {
+  width: 50px;
+  text-align: center;
+}
+
+.error {
+  border-color: rgb(171, 64, 64);
+  color: white;
+  background: rgb(171, 64, 64);
+  padding: 8px;
+}
+
+.success {
+  border-color: rgb(53, 142, 53);
+  color: white;
+  background: rgb(53, 142, 53);
+  padding: 8px;
+}

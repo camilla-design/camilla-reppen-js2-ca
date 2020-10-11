@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/super-marios",
+      "handler": "super-mario.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/super-marios/count",
+      "handler": "super-mario.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/super-marios/:id",
+      "handler": "super-mario.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/super-marios",
+      "handler": "super-mario.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/super-marios/:id",
+      "handler": "super-mario.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/super-marios/:id",
+      "handler": "super-mario.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}
